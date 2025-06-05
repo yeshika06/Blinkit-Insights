@@ -57,3 +57,28 @@ Revealed peak delivery time windows to help optimize fleet allocation.
 
 Helped decision-makers focus on top 3 regions driving 75% revenue.
 
+# 📁 Repository Structure
+The project is organized into the following directories and files:
+
+1. Data
+Contains all dataset files used in the project:
+
+raw_data.csv: The original data collected for analysis.
+
+cleaned_data.csv: The cleaned and preprocessed version of the dataset after applying data wrangling steps.
+
+2. Scripts
+Houses the code used for ETL and automation:
+
+data_cleaning.py: A Python script for cleaning and preparing the dataset using pandas.
+
+sql_queries.sql: SQL queries used for data extraction and transformation from the source database.
+
+3. Dashboards
+Includes the business intelligence dashboards:
+
+PowerBI_Dashboard.pbix: The Power BI file showing interactive visualizations and KPI dashboards.
+
+Tableau_Dashboard.twbx: The Tableau workbook used to explore and present insights.
+
+
